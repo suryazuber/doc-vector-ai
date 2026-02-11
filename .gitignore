@@ -1,0 +1,68 @@
+# add python ignore modules
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+pdf-qa-bot_env/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Vector Databases / Embeddings
+# =========================
+doc_vectorstore/
+*.faiss
+*.pkl
+*.db
+
+# =========================
+# Uploaded Documents
+# =========================
+doc_to_upload/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / Dist
+# =========================
+build/
+dist/
+*.egg-info/
