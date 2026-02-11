@@ -2,6 +2,7 @@ python-dotenv
 streamlit
 sentence-transformers
 langchain-community
+langchain-classic
 langchain
 langchain-huggingface
 langchain-text-splitters
